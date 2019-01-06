@@ -10,10 +10,12 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var Newitem = generateCartItem(item);
-  getCart().push(item);
-  return `${newItem.itemName} has been added to your cart.` ;
+  var newItems = [ {itemName: name, 
+  itemPrice: price}];
+  
+  
 }
+
 
 function viewCart() {
   // write your code here
