@@ -15,9 +15,8 @@ function addToCart(item){
  newItems = [];
  for (var i =0; i < cart.length; i++){
    newItems.push(`${item} has been added to your cart.`);
- }
-return newItems;
-  
+   return newItems;
+}
 }
 
 function viewCart() {
