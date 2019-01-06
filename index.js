@@ -9,12 +9,10 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item){
- var objects = [itemName: name, itemPrice: price];
- var price = Math.floor((Math.random() * 100));
- for (var i =0; i < cart.length; i++){
-   cart.push(`${item} has been added to your cart.`);
-   return cart;
+function addToCart(item) {
+  var Newitem = generateCartItem(item);
+  getCart().push(item);
+  return `${newItem.itemName} has been added to your cart.` ;
 }
 
 function viewCart() {
